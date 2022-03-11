@@ -1,4 +1,4 @@
-package com.karimmammadov.movieapp
+package com.karimmammadov.movieapp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.karimmammadov.movieapp.R
 import com.karimmammadov.movieapp.adapter.MovieAdapter
 import com.karimmammadov.movieapp.model.Movie
 import com.karimmammadov.movieapp.model.MovieResponse
