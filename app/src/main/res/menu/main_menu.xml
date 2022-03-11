@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/filter"
+        android:title="Filter"
+        app:showAsAction="always"
+        android:iconTint="#fff">
+
+        <menu>
+            <item android:id="@+id/sort1"
+                android:title="Sort A to Z"
+                android:icon="@drawable/ic_baseline_sort_by_alpha_24"
+                android:orderInCategory="100"/>
+
+            <item android:id="@+id/sort2"
+                android:title="Sort Z to A"
+                android:icon="@drawable/ic_baseline_sort_by_alpha_24"
+                android:orderInCategory="100"/>
+
+            <item android:id="@+id/sort3"
+                android:title="Release date New to Old"
+                android:icon="@drawable/ic_baseline_swap_vert_24"
+                android:orderInCategory="100"/>
+
+            <item android:id="@+id/sort4"
+                android:title="Release date Old to New"
+                android:icon="@drawable/ic_baseline_swap_vert_24"
+                android:orderInCategory="100"/>
+        </menu>
+    </item>
+</menu>
